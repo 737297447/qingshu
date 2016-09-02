@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <com.lingdian.saylove.first.view.SecretTextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="前面是与你相识到心动的所有时刻，我的心里一直记得每个时刻的感动，因为看见你，仿佛就是整个春天。也是我给你写的前半段情书，下面还会有后半段情书，全都是我用心完成的。"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="后半部"
+        android:textColor="#558198"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/first_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="点击下面文字继续后半部"
+        android:textColor="#686868"
+        android:textSize="12sp" />
+
+</RelativeLayout>

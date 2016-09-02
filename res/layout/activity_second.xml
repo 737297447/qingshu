@@ -1,0 +1,254 @@
+<com.lingdian.saylove.second.lib.DiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.lingdian.saylove.second.lib.DiscrollViewContent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@android:color/white"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="first love letter"
+            android:textColor="@android:color/black"
+            android:textSize="72sp"
+            tools:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#007788"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_threshold="0.3" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="如果你不了解我，我现在讲我错过你的这么多年给你补回来"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:src="@drawable/second_01"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromLeft|fromBottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="没认识你之前的日子，我的生活平平淡淡，自从那天看见你之后，仿佛世界一下有了颜色"
+            android:textColor="#2592d3"
+            android:textSize="14sp"
+            discrollve:discrollve_translation="fromLeft|fromBottom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            discrollve:discrollve_fromBgColor="#88EE66"
+            discrollve:discrollve_toBgColor="#000000" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="吃饭吃不香，睡觉睡不着，总想着下次怎样能与你不期而遇。反反复复。可是当远远的看见你的时候，却没有勇气上前去和你说话，过后又懊恼不已"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="110dp"
+            android:layout_gravity="right"
+            android:src="@drawable/second_02"
+            discrollve:discrollve_translation="fromRight" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="终于今天鼓起勇气想你表白，用这种形式。我天生没有浪漫细胞，但是我在用我最大的努力给你制造浪漫。保证在以后的日子里让你天天都精彩"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromBottom" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@drawable/ilovecheese_heart"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true" />
+
+        <com.lingdian.saylove.second.layout.DiscrollvablePurpleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_purple"
+            android:orientation="vertical"
+            tools:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/purpleView1"
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="25dp"
+                android:alpha="0"
+                android:src="@drawable/second_03"
+                android:translationX="-150dp" />
+
+            <ImageView
+                android:id="@+id/purpleView2"
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="15dp"
+                android:alpha="0"
+                android:src="@drawable/second_04"
+                android:translationX="100dp" />
+        </com.lingdian.saylove.second.layout.DiscrollvablePurpleLayout>
+
+        <com.lingdian.saylove.second.layout.DiscrollvablePathLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/pathView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="我要在这里对你说，我喜欢你，真的很喜欢你，你愿意吗？"
+                android:textSize="18sp" />
+        </com.lingdian.saylove.second.layout.DiscrollvablePathLayout>
+
+        <com.lingdian.saylove.second.layout.DiscrollvableRedLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@android:color/holo_red_dark"
+            tools:visibility="gone" >
+
+            <TextView
+                android:id="@+id/redView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:text="从现在开始，我只对你一个人好； 
+宠你，不骗你； 
+答应你的每一件事情，我都会做到； 
+对你讲的每一句话都要是真心。 
+不骂你，常常关心你； 
+别人欺负你时，我会在第一时间出来帮你； 
+你开心时，我会陪我开心； 
+你不开心时，我会哄你开心； 
+永远都要觉得你是最漂亮的； 
+梦里也全都是你；在我心里只有你……"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/redView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:alpha="0.0"
+                android:scaleX="0.1"
+                android:scaleY="0.1"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/second_05"
+                android:translationY="50dp" />
+        </com.lingdian.saylove.second.layout.DiscrollvableRedLayout>
+
+        <com.lingdian.saylove.second.layout.DiscrollvableGreenLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            tools:visibility="gone" >
+
+            <TextView
+                android:id="@+id/greenView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="50dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Finally ..."
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:translationY="-50dp" />
+        </com.lingdian.saylove.second.layout.DiscrollvableGreenLayout>
+
+        <com.lingdian.saylove.second.layout.DiscrollvableLastLayout
+            android:id="@+id/second_end_layout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/lastView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0"
+                android:src="@drawable/ilovecheese_i"
+                android:translationX="-200dp"
+                android:translationY="-200dp" />
+
+            <ImageView
+                android:id="@+id/lastView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/lastView3"
+                android:alpha="0"
+                android:src="@drawable/ilovecheese_heart"
+                android:translationX="200dp"
+                android:translationY="200dp" />
+
+            <ImageView
+                android:id="@+id/lastView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastView1"
+                android:layout_gravity="center"
+                android:alpha="0"
+                android:src="@drawable/second_06"
+                android:translationY="200dp" />
+          
+        </com.lingdian.saylove.second.layout.DiscrollvableLastLayout>
+        
+           <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 android:layout_below="@+id/lastView3"
+                 android:layout_marginTop="20dp"
+                 android:gravity="center"
+                 android:textColor="@color/gray"
+                android:text="点击上面ILOVEYOU进行下一步"/>
+    </com.lingdian.saylove.second.lib.DiscrollViewContent>
+
+</com.lingdian.saylove.second.lib.DiscrollView>

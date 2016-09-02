@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/exit_layout2"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:background="#ffffff"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:gravity="center"
+            android:text="标题"
+            android:textColor="@color/oa_main_tv_navig_normal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dialog_btn_1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/oa_selecter_action_bar_btn_true"
+            android:gravity="center"
+            android:onClick="exitbutton0"
+            android:text="操作1"
+            android:textColor="@color/oa_white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/dialog_btn_2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/oa_selecter_action_bar_btn_true"
+            android:gravity="center"
+            android:onClick="exitbutton1"
+            android:text="操作2"
+            android:textColor="@color/oa_white"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_marginTop="1dip"
+            android:id="@+id/dialog_btn_3"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/oa_selecter_action_bar_btn_true"
+            android:gravity="center"
+            android:onClick="exitbutton1"
+            android:text="操作3"
+            android:textColor="@color/oa_white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

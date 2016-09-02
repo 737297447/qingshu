@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="心      动"
+        android:textColor="#558198"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/first_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="2015-05-20"
+        android:textColor="#686868"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="I love the way of rain drops falling on the leaves"
+        android:textColor="#a9a9a9"
+        android:textSize="12sp" />
+
+    <com.lingdian.saylove.tools.CheckWorkImageView
+        android:id="@+id/first_img"
+        android:layout_width="150dip"
+        android:layout_height="266dip"
+        android:layout_below="@+id/first_time"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/dazi_xiaoguo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_img"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+</RelativeLayout>

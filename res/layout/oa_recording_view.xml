@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/recording_view_micro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginTop="30dip" />
+
+    <TextView
+        android:id="@+id/recording_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="00:00"
+        android:textColor="#808080"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/recording_view_content"
+         android:layout_below="@id/recording_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:text="正在录音"
+        android:textColor="#808080"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_below="@id/recording_view_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        >
+
+        <Button
+            android:id="@+id/recording_view_cancel"
+            android:layout_width="99.5dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/oa_selecter_action_bar_btn_true"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/recording_view_ok"
+            android:layout_marginLeft="1dip"
+            android:layout_width="99.5dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/oa_selecter_action_bar_btn_true"
+            android:text="开始"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

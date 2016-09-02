@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="15dip" >
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="0dip"
+                    android:focusableInTouchMode="true" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="请输入那位的电话号码或者在通讯录中查找"
+                    android:textColor="#ff0f81d9" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dip"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/telphone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="35dip"
+                        android:layout_marginBottom="8dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_default"
+                        android:hint="请输入对方的电话号码"
+                        android:inputType="text"
+                        android:singleLine="true"
+                        android:text="" />
+
+                    <Button
+                        android:id="@+id/tongxunlu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_default_blue"
+                        android:minWidth="180dip"
+                        android:text="通讯录"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="请输入表白内容"
+                    android:textColor="#ff0f81d9" />
+
+                <EditText
+                    android:id="@+id/neirong"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dip"
+                    android:background="@drawable/edittext_default"
+                    android:imeOptions="actionDone"
+                    android:text="" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="下面“图片”选项请选择你的那个她/他的照片，可以多选一些，还可以现场照相，录音是你要对她/他说的话，后面会有用到，能不能感动她就看你的录音了"
+                    android:textColor="#ff0f81d9" />
+                <com.lingdian.saylove.util.FileChooseAndShowView
+                    android:id="@+id/file_choose_and_show_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                </com.lingdian.saylove.util.FileChooseAndShowView>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="下面的这些选项是记录你对她/他从相识到动心的时刻记载，选择你的每个阶段的时间和感受，也可以不用填，会有预制的一套，当然还是建议自己写，就相当于写情书，才能体现你的用心，才能有惊喜"
+                    android:textColor="#ff0f81d9" />
+ 
+                <include layout="@layout/first_layout_setting"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:layout_margin="5dip"
+            android:background="@drawable/btn_default_blue"
+            android:text="点击保存"
+            android:textColor="#FFFFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

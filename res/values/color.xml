@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_bg">#f3f3f3</color>
+
+    <color name="gl_background">#737373</color>
+    <color name="dodgerblue">#58A8E7</color>
+    <color name="light_gray">#ffc3c3c3</color>
+    <color name="green">#ff00b30d</color>
+    <color name="b0b0b0">#ffb0b0b0</color>
+    <color name="c2c2c2">#ffc2c2c2</color>
+    <color name="chat_send_gray">#ff535353</color>
+    <color name="default_title_indicator_footer_color">#ff33b5e5</color>
+    <color name="default_title_indicator_selected_color">#ffffffff</color>
+    <color name="default_title_indicator_text_color">#bbffffff</color>
+    <color name="ltgray">#ffcccccc</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="magenta">#ffff00ff</color>
+    <color name="blackground">#ffd3d2d2</color>
+    <color name="dkgray">#444444</color>
+    <color name="orange">#ffffac22</color>
+    <color name="c_777777">#ff777777</color>
+    <color name="c_f5f5f5">#fff5f5f5</color>
+    <color name="c_747474">#ff747474</color>
+    <color name="c_ffae00">#ffffae00</color>
+    <color name="c_ffb1b1b1">#ffb1b1b1</color>
+    <color name="find_password">#247576</color>
+    <color name="login_reg">#686868</color>
+    <color name="c_ffffffff">#ffffffff</color>
+    <color name="c_ff000000">#ff000000</color>
+    <color name="c_aa000000">#aa000000</color>
+    <color name="c_ff8c8c8c">#ff8c8c8c</color>
+    <color name="c_ffc4c4c4">#c4c4c4</color>
+    <color name="c_ffe9e9e9">#ffe9e9e9</color>
+    <color name="c_ffcacaca">#ffcacaca</color>
+    <color name="c_ff4d4e49">#ff4d4e49</color>
+    <color name="c_ff999999">#ff999999</color>
+    <color name="c_ffababab">#ffababab</color>
+    <color name="sliding_menu_back">#ff2c2c2e</color>
+    <color name="sliding_menu_title_text_color">#ff999999</color>
+    <color name="sliding_menu_item_text_color">#ffb1b1b1</color>
+    <color name="sliding_menu_item_text_color_pressed">#ffffffff</color>
+    <color name="sliding_menu_item_pressed">#ff39393b</color>
+    <color name="sliding_menu_item">#00000000</color>
+    <color name="chat_theme_guide_bg">#bf000000</color>
+    <color name="c_7a4c12">#ff7a4c12</color>
+    <color name="c_969696">#ff969696</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_165380">#165380</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_gray">#F7F7F7</color>
+    <color name="reg_btn">#4C7724</color>
+    <color name="DBDBDB">#DBDBDB</color>
+    <color name="black">#000000</color>
+    <color name="dimgray">#555555</color>
+ <!-- 暗淡灰  94A5B6 -->
+    <color name="friends_circle_4F8AB5">#4F8AB5</color>
+    <color name="works_show_4EA024">#4EA024</color>
+    <color name="works_show_9F9F9F">#9F9F9F</color>
+    <color name="works_show_383938">#383938</color>
+    <color name="works_show_6A6A6A">#6A6A6A</color>
+    <color name="friends_circle_518BB6">#518BB6</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="light_blue">#99BAF3</color>
+    <color name="light_yellow">#ABEE5E</color>
+    <color name="gray">#D2D0D2</color>
+    <color name="gray_2">#F5FFF1</color>
+    <color name="reg_main_bg">#E6E6E6</color>
+    <color name="line_gray">#CACDD1</color>
+    <color name="labelColor">#4988BD</color>
+    <color name="listD">#989EA6</color>
+    <color name="bar_bg_normal">#ffe0e0e0</color>
+    <color name="bar_bg_pressed">#80000080</color>
+    <color name="bar_bg_activated">#ff000080</color>
+    <color name="bar_bg_selected">#ff000080</color>
+    <color name="dark_grey">#ffedeef0</color>
+    <color name="text_yellow">#ffd0701b</color>
+    <color name="text_readflag">#ff777777</color>
+    <color name="mail_un_seen">#ffd2f1fc</color>
+    <color name="bottom_bar_text_color">#ff707070</color>
+    <color name="sc_transparent_background">#00000000</color>
+    <color name="oa_thirty_transparent_black">#4d000000</color>
+    <color name="semi_transparent">#7f000000</color>
+    <color name="semi_transparent_w">#7fffffff</color>
+    <color name="text_shadow_color">#66000000</color>
+    <color name="c_CCCCCC">#cccccc</color>
+    <color name="c_B3B3B3">#B3B3B3</color>
+    <color name="toast_bg_color">#ff535353</color>
+    <color name="c_ff2f2f2f">#ff2f2f2f</color>
+    <color name="c_ff949494">#ff949494</color>
+    <color name="c_3292D8">#3292D8</color>
+    <color name="spps_title_bg">#F7F7F7</color>
+    <color name="chat_item">#EBEBEB</color>
+    <color name="spps_title_font">#8E8E8E</color>
+    <color name="spps_driver_bg">#E9E9E9</color>
+    <color name="reg_fonts">#434343</color>
+    <color name="tab_menu_font">#7FC153</color>
+    <color name="reg_fwtk">#287C9F</color>
+    <color name="myinfo">#A5A5A5</color>
+    <color name="config_bg">#F6F6F6</color>
+    <color name="c_E6E6E6">#E6E6E6</color>
+    <color name="app_info_font">#5E5E5E</color>
+    <color name="app_info_bg">#F4F4F4</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_8D8D8D">#8D8D8D</color>
+    <color name="c_DAF2C0">#DAF2C0</color>
+    <color name="c_99BAF3">#99BAF3</color>
+    <color name="c_D3F1BF">#D3F1BF</color>
+    <color name="c_E2E2E2">#E2E2E2</color>
+
+    <!-- 部门颜色 -->
+    <!-- 部门列表条目textView颜色 -->
+    <color name="depart_tv_gray">#666666</color>
+    <!-- 部门列表上下级颜色 -->
+    <color name="depart_green">#b3b3b3</color>
+    <!-- 部门背景颜色 -->
+    <color name="contact_bg">#e6e6e6</color>
+    <!-- 部门分割线 -->
+    <color name="depart_line">#cccccc</color>
+    <!-- 部门详细信息标题 -->
+    <color name="depart_tv_title">#9e9e9e</color>
+    <color name="group_green">#72a95f</color>
+    <color name="c_EDEEEE">#EDEEEE</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+
+    <!-- ++++++++++++++++++++++++++++OA++++++++++++++++++++++++++++++++ -->
+    <color name="oa_c_ff949494">#ff949494</color>
+    <color name="oa_tab_menu_font">#7FC153</color>
+    <color name="oa_c_ffffffff">#ffffffff</color>
+    <color name="oa_c_ffb1b1b1">#ffb1b1b1</color>
+    <color name="oa_light_blue">#99BAF3</color>
+    <color name="oa_main_tv_navig_press">#7FCAFF</color>
+    <color name="oa_main_tv_navig_normal">#CCCCCC</color>
+
+    <!-- 适配器 -->
+    <color name="oa_item_task_name">#1c1c1c</color>
+    <color name="oa_item_task_content">#666666</color>
+    <color name="oa_item_task_homepage">#4D4D4D</color>
+    <color name="oa_item_task_info_content">#3B95D2</color>
+    <color name="oa_item_task_type">#666666</color>
+    <color name="oa_item_task_time">#c1c1c1</color>
+    <color name="oa_transparent_1a">#1A000000</color>
+    <color name="oa_transparent_77">#77000000</color>
+    <color name="oa_transparent_44">#44000000</color>
+    <color name="oa_transparent_bb">#bb000000</color>
+
+    <!-- listView颜色 -->
+    <color name="oa_divider_color">#CCCCCC</color>
+    <color name="chat_bg">#E6E6E6</color>
+    <color name="oa_popup_bg">#cc000000</color>
+    <color name="oa_popup_tv">#ffffff</color>
+    <color name="oa_main_navig_normal">#a1c9e6</color>
+    <color name="oa_task_info_navig_press">#2077B7</color>
+    <color name="oa_task_info_navig_normal">#808080</color>
+    <color name="oa_task_search_tv">#808080</color>
+    <color name="oa_holo_blue_light">#ff33b5e5</color>
+    <color name="oa_white_gray">#F7F7F7</color>
+    <color name="oa_white">#ffffff</color>
+    <color name="oa_transparent">#00000000</color>
+    <color name="oa_dodgerblue">#58A8E7</color>
+    <color name="oa_task_create_record_tv">#808080</color>
+    <color name="oa_blue">#808080</color>
+    <color name="oa_dialog">#808080</color>
+    <color name="oa_dialog_title">#D9D9D9</color>
+    <color name="oa_black">#000000</color>
+    <color name="oa_app_item_hint">#CCCCCC</color>
+    <color name="oa_app_info_bg">#D9D8D7</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    
+    <color name="shengray">#999999</color>
+    <color name="doc_navig_bg">#1F77B7</color>
+    <color name="ent_blue">#AFD9FA</color>
+    <color name="ent_gray">#E6E6E6</color>
+    <color name="white">#ffffff</color>
+    
+    
+    <color name="wran_tv_color">#E6E6E6</color>
+    
+    <color name="danblue">#2996CC</color>
+    <color name="shenblue">#1F77B7</color>
+    
+    <color name="B3B3B3">#B3B3B3</color>
+    <color name="check_in_press">#4B93B4</color>
+    <color name="check_in_normal">#2996CC</color>
+    
+	<color name="oa_meeting_progress_bg">#ADADAD</color>
+	 <!-- 日志 -->
+	 <color name="schedule_list_time">#94A5B6</color>
+	 <color name="schedule_text">#686868</color>
+    <!-- ++++++++++++++++++++++++++++OA++++++++++++++++++++++++++++++++ -->
+    <!-- 审批  -->
+    <color name="shenpi_textcolor_add">#6097D0</color>
+    <color name="shenpi_textcolor_delete_un">#eb9f45</color>
+    <color name="shenpi_op_other">#F2BF83</color>
+    <color name="shenpi_op_refuse">#CA5959</color>
+    <color name="shenpi_op_agree">#5BAF80</color>
+    <!-- 考勤 -->
+	<color name="kaoqing_tv_color_5CA1E6">#5CA1E6</color>
+	<color name="crm_text_gray_3b">#ff3b3c3e</color>
+    <color name="gray_7a">#ff7a7f85</color>
+    <color name="gray_db">#ffdbdbdb</color>
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+</resources>

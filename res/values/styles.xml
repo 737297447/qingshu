@@ -1,0 +1,270 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+
+    <style name="chat_datetime_font">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <!-- 考前打卡界面弹出dialog风格 -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="MyDialogStyleTop" parent="android:Theme.Dialog">
+
+        <!-- <item name="android:windowAnimationStyle">@style/AnimTop2</item> -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="MyChatDialogStyleTop" parent="android:Theme.Dialog">
+
+        <!-- <item name="android:windowAnimationStyle">@style/AnimTop2</item> -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="activity_theme_menu">
+
+        <!-- <item name="android:windowAnimationStyle">@style/AnimTop2</item> -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+
+    <style name="MyDialogStyleNoBg" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Theme.Light.NoTitleBar.NoBackground" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="MainFont">
+        <item name="android:textColor">#393636</item>
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:shadowColor">#E8E5E5</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+
+    <style name="footbar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">10dip</item>
+    </style>
+
+
+
+    <style name="layout_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++OA++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <style name="oa_MyDialogStyleTop" parent="android:Theme.Dialog">
+
+        <!-- <item name="android:windowAnimationStyle">@style/AnimTop2</item> -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <style name="oa_navigationbar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">60dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:button">@null</item>
+    </style>
+
+
+    <style name="oa_footbar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">10dip</item>
+    </style>
+
+
+
+
+
+
+
+    <style name="oa_layout_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="oa_text_style16" parent="oa_layout_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="oa_PullToRefreshListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:listSelector">@color/oa_transparent</item>
+        <item name="android:cacheColorHint">@color/oa_transparent</item>
+        <item name="android:dividerHeight">0.5dip</item>
+        <item name="android:divider">#DDDDDD</item>
+        <!-- <item name="android:divider">@drawable/c_all_toplistline</item> -->
+    </style>
+
+    <style name="oa_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="oa_task_info_btn">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:textColor">@color/oa_white</item>
+        <item name="android:layout_marginRight">0.5dip</item>
+        <item name="android:layout_marginLeft">0.5dip</item>
+        <item name="android:layout_marginBottom">0.5dip</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@drawable/oa_selecter_action_bar_btn_true</item>
+    </style>
+
+
+    <style name="text_style14" parent="layout_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_style16" parent="layout_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="depart_text_title_style">
+        <item name="android:textColor">@color/depart_tv_title</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="depart_text_style">
+        <item name="android:maxEms">10</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#3e3e3e</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="set_size">
+        <item name="android:layout_width">10dip</item>
+         <item name="android:layout_height">18.42dip</item>
+        
+    </style>
+
+	
+</resources>

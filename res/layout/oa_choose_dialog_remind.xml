@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exit_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:minWidth="200dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="标题"
+        android:textColor="#333"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dialog_remind"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:minHeight="90dip"
+        android:padding="5dip"
+        android:text="提醒内容"
+        android:textColor="#333"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/dialog_btn_1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:background="@drawable/oa_selecter_action_bar_btn_true"
+            android:gravity="center"
+            android:onClick="exitbutton0"
+            android:text="确认"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/dialog_btn_2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginLeft="1dip"
+            android:layout_weight="1"
+            android:background="@drawable/oa_selecter_action_bar_btn_true"
+            android:gravity="center"
+            android:onClick="exitbutton1"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/xiangyu_time_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="相遇时间"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/xiangyu_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18.0dip"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiangyu_ganshou_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="相遇感受"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+
+        <EditText
+            android:id="@+id/xiangyu_ganshou_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_default"
+            android:ems="10"
+            android:hint="输入相遇时的感受可为空"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" >
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiangshi_time_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="相识时间"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/xiangshi_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18.0dip"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiangshi_ganshou_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="相识感受"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+
+        <EditText
+            android:id="@+id/xiangshi_ganshou_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_default"
+            android:ems="10"
+            android:hint="输入相识时的感受可为空"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" >
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiangzhi_time_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="相知时间"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/xiangzhi_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18.0dip"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xiangzhi_ganshou_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="相知感受"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+
+        <EditText
+            android:id="@+id/xiangzhi_ganshou_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_default"
+            android:ems="10"
+            android:hint="输入相知时的感受可为空"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" >
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xindong_time_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="心动时间"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/xindong_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="18.0dip"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/xindong_ganshou_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:background="@drawable/select_time_bg" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="4.0dip"
+                android:text="心动感受"
+                android:textColor="#ff333333"
+                android:textSize="16.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:background="@drawable/contact_list_divider" />
+
+        <EditText
+            android:id="@+id/xindong_ganshou_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_default"
+            android:ems="10"
+            android:hint="输入心动时的感受可为空"
+            android:text=""
+            android:textColor="#ffaaaaaa"
+            android:textSize="16.0dip" >
+        </EditText>
+    </RelativeLayout>
+
+</LinearLayout>

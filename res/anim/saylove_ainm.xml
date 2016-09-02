@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list android:oneshot="false"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:duration="400" android:drawable="@drawable/l1" />
+	<item android:duration="400" android:drawable="@drawable/l2" />
+	<item android:duration="400" android:drawable="@drawable/l3" />
+	<item android:duration="400" android:drawable="@drawable/l4" />
+	<item android:duration="400" android:drawable="@drawable/l5" />
+	<item android:duration="400" android:drawable="@drawable/l6" />
+	<item android:duration="400" android:drawable="@drawable/l7" />
+	<item android:duration="400" android:drawable="@drawable/l8" />
+	<item android:duration="400" android:drawable="@drawable/l9" />
+	<item android:duration="400" android:drawable="@drawable/l10" />
+	<item android:duration="400" android:drawable="@drawable/l11" />
+	<item android:duration="400" android:drawable="@drawable/l12" />
+	<item android:duration="400" android:drawable="@drawable/l13" />
+	<item android:duration="400" android:drawable="@drawable/l14" />
+	<item android:duration="400" android:drawable="@drawable/l15" />
+	<item android:duration="400" android:drawable="@drawable/l16" />
+	<item android:duration="400" android:drawable="@drawable/l17" />
+	<item android:duration="400" android:drawable="@drawable/l18" />
+	<item android:duration="400" android:drawable="@drawable/l19" />
+	<item android:duration="400" android:drawable="@drawable/l20" />
+	<item android:duration="400" android:drawable="@drawable/l21" />
+	<item android:duration="400" android:drawable="@drawable/l22" />
+	<item android:duration="400" android:drawable="@drawable/l23" />
+	<item android:duration="400" android:drawable="@drawable/l24" />
+	<item android:duration="400" android:drawable="@drawable/l25" />
+	<item android:duration="400" android:drawable="@drawable/l26" />
+	<item android:duration="400" android:drawable="@drawable/l27" />
+	<item android:duration="400" android:drawable="@drawable/l28" />
+	<item android:duration="400" android:drawable="@drawable/l29" />
+	<item android:duration="400" android:drawable="@drawable/l30" />
+	<item android:duration="400" android:drawable="@drawable/l31" />
+	<item android:duration="400" android:drawable="@drawable/l32" />
+	<item android:duration="400" android:drawable="@drawable/l33" />
+	<item android:duration="400" android:drawable="@drawable/l34" />
+	<item android:duration="400" android:drawable="@drawable/l35" />
+	<item android:duration="400" android:drawable="@drawable/l36" />
+	<item android:duration="400" android:drawable="@drawable/l37" />
+	<item android:duration="400" android:drawable="@drawable/l38" />
+	<item android:duration="400" android:drawable="@drawable/l39" />
+	<item android:duration="400" android:drawable="@drawable/l39a" />
+	<item android:duration="400" android:drawable="@drawable/l39b" />
+	<item android:duration="400" android:drawable="@drawable/l40" />
+	<item android:duration="400" android:drawable="@drawable/l41" />
+	<item android:duration="400" android:drawable="@drawable/l42" />
+	<item android:duration="400" android:drawable="@drawable/l43" />
+	<item android:duration="400" android:drawable="@drawable/l44" />
+	<item android:duration="400" android:drawable="@drawable/l45" />
+</animation-list> 
